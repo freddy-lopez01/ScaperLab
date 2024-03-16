@@ -1,0 +1,8 @@
+.welcome-frame {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin-inline: 10%;
+}
