@@ -1,5 +1,7 @@
 .carousel-frame {
   margin-top: 80px;
+
+  width: 100%;
 }
 
 .carousel .thumbs-wrapper {
