@@ -1,6 +1,7 @@
 .welcome-frame {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 h1 {
