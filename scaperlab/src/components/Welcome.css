@@ -2,16 +2,14 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  margin: 5%;
 }
 
-h1 {
-  font-size: 50px;
-  margin-inline: 10%;
-  color: black;
-}
 
 .word {
-  font-size: 5vw;
+  font-size: 6vw;
+  font-weight: 300;
+  margin: 0.5%;
 }
 
 
