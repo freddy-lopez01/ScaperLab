@@ -12,7 +12,7 @@ function Welcome () {
         textAnimation.from('.word', {
             y: 100,
             stagger: {
-                each: 0.5
+                each: 0.05
             }
         })
     }, []);
@@ -20,11 +20,14 @@ function Welcome () {
     return (
         <>
         <div className="welcome-frame">
-            <h1 className="word">Welcome to ScaperLab!</h1>
+            {
+                'Welcome to ScaperLab!'.split('').map((word) => {
+                    return word === ' ' ? <span className="word">&nbsp;</span> : <span className="word">{word}</span>
+                })
+            }
+            {/* <h1 className="word">Welcome to ScaperLab!</h1> */}
         </div>
 
-        <div className="welcome-frameV2">
-        </div>
         </>
     )
 }

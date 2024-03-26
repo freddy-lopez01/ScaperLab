@@ -10,6 +10,10 @@ h1 {
   color: black;
 }
 
+.word {
+  font-size: 5vw;
+}
+
 
 
 @media screen and (max-width:960px) {
