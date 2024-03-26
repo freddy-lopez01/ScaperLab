@@ -25,7 +25,6 @@ function Welcome () {
                     return word === ' ' ? <span className="word">&nbsp;</span> : <span className="word">{word}</span>
                 })
             }
-            {/* <h1 className="word">Welcome to ScaperLab!</h1> */}
         </div>
 
         </>
