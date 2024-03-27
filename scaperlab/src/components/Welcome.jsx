@@ -19,44 +19,58 @@ function Welcome () {
 
     return (
         <>
-        <div className="welcome-frame">
-            {
-                'Welcome to ScaperLab!'.split('').map((word) => {
-                    return word === ' ' ? <span className="word">&nbsp;</span> : <span className="word">{word}</span>
-                })
-            }
-        </div>
-        <div className="welcome-info">
-            <div class="custom-svg">
+            <div className="welcome-frame">
+                {
+                    'Welcome to ScaperLab!'.split('').map((word) => {
+                        return word === ' ' ? <span className="word">&nbsp;</span> : <span className="word">{word}</span>
+                    })
+                }
+            </div>
+
+            <div className="welcome-info">
+                <div class="custom-svg">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div className="welcome-info2">What is Aquascaping?</div>
+
+            <div className="welcome-explanation">
+                Aquascaping is the art and practice of arranging aquatic plants, rocks, stones, driftwood, and other decorative
+                elements in an aquarium to create visually appealing underwater landscapes. It's essentially landscaping, but underwater.
+                Aquascaping often involves creating miniature ecosystems that mimic natural environments or follow staple aquascaping design styles.
+            </div>
+
+            <div className="welcome-div">
+
+                <div className="welcome-explanationPic">
+                    Aquascaping combines principles of design, such as balance, proportion, and focal points, with knowledge of aquatic plants
+                    and fish to create harmonious and aesthetically pleasing aquarium layouts. It's popular among aquarium hobbyists, who often
+                    participate in competitions to showcase their creativity and skill in designing these underwater landscapes.
+                </div>
+                <img className="PIC" src="iwagumi-aquascape-4.jpg" alt="iwagumi"></img>
+            </div>
+
+            <div className="welcome-explanation">
+                Aquascaping requires careful planning and consideration of factors like plant growth, fish behavior, and maintenance
+                requirements. Various styles of aquascaping have emerged over time, including Nature Aquarium, Dutch Aquarium, and
+                Iwagumi, each with its own principles and techniques for creating stunning underwater landscapes.
+                <div className="temp"></div>
+            </div>
+
+            <div class="svg-link">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
                 </svg>
             </div>
-        </div>
-        <div className="welcome-info2">What is Aquascaping?</div>
-        <div className="welcome-explanation">
-            Aquascaping is the art and practice of arranging aquatic plants, rocks, stones, driftwood, and other decorative
-            elements in an aquarium to create visually appealing underwater landscapes. It's essentially landscaping, but underwater.
-            Aquascaping often involves creating miniature ecosystems that mimic natural environments or follow staple aquascaping design styles.
-        </div>
 
-        <div className="welcome-div">
-
-            <div className="welcome-explanationPic">
-                Aquascaping combines principles of design, such as balance, proportion, and focal points, with knowledge of aquatic plants
-                and fish to create harmonious and aesthetically pleasing aquarium layouts. It's popular among aquarium hobbyists, who often
-                participate in competitions to showcase their creativity and skill in designing these underwater landscapes.
+            <div className="link-section">
+                <div className="link-section-title">
+                    Find an Aquascaping store near you
+                </div>
             </div>
-            <img className="PIC" src="iwagumi-aquascape-4.jpg" alt="iwagumi"></img>
-        </div>
-
-        <div className="welcome-explanation">
-
-            Aquascaping requires careful planning and consideration of factors like plant growth, fish behavior, and maintenance
-            requirements. Various styles of aquascaping have emerged over time, including Nature Aquarium, Dutch Aquarium, and
-            Iwagumi, each with its own principles and techniques for creating stunning underwater landscapes.
-        </div>
-
         </>
     )
 }
