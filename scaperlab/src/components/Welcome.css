@@ -63,6 +63,11 @@
 }
 
 
+.PIC {
+  border-radius: 30px;
+}
+
+
 
 @media screen and (max-width:960px) {
 }

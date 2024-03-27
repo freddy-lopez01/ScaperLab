@@ -47,7 +47,7 @@ function Welcome () {
                 and fish to create harmonious and aesthetically pleasing aquarium layouts. It's popular among aquarium hobbyists, who often
                 participate in competitions to showcase their creativity and skill in designing these underwater landscapes.
             </div>
-            <img src="iwagumi-aquascape-4.jpg" alt="iwagumi"></img>
+            <img className="PIC" src="iwagumi-aquascape-4.jpg" alt="iwagumi"></img>
         </div>
 
         <div className="welcome-explanation">
