@@ -10,10 +10,6 @@ function Home () {
         <HomeSlider/>
         <Welcome/>
         <Footer/>
-
-
-
-
         </>
     )
 };
