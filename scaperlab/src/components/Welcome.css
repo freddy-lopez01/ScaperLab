@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  margin: 5%;
+  padding: 5%;
+  background-image: url("back-new.png");
+  background-size: 70%;
 }
-
 
 .word {
   font-size: 6vw;
