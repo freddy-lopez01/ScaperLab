@@ -1,1 +1,2 @@
 Welcome to ScaperLab! This website will hopefully be deployed around June 2024 as tool for my customers that I interact with in my position at Picses Aquaia. I am a passionate aquascaper and want to create a site that I can direct my customers to obtain quick and digestable information regarding common topics within the hobby.
+Aquascaping resources are plentiful but a condensed format is still not readily available 
