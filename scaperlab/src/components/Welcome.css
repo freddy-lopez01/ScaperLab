@@ -19,7 +19,8 @@
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
-  background-color: #473F3B;
+  background: rgb(38,35,35);
+  background: linear-gradient(90deg, rgba(38,35,35,1) 0%, rgba(71,63,59,1) 58%, rgba(124,131,113,1) 100%);
 }
 
 .welcome-info svg {
@@ -37,16 +38,17 @@
   font-size: 3vw;
   font-weight: 200;
   color: #ffffff;
-  background-color: #473F3B;
   padding-inline: 3%;
+  background: rgb(38,35,35);
+  background: linear-gradient(90deg, rgba(38,35,35,1) 0%, rgba(71,63,59,1) 58%, rgba(124,131,113,1) 100%);
 }
 
 .welcome-explanation {
-  background-color: #473F3B;
   font-size: 1.5vw;
   color: #ffffff;
   padding-top: 3%;
   padding-inline: 3%;
+  background-color: #473F3B;
 }
 
 .welcome-explanation .temp {
